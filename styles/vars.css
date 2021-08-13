@@ -1,7 +1,20 @@
 :root {
   --text-heading: 'Montserrat Alternates', sans-serif;
   --text-paragraph: 'Raleway', sans-serif;
-  --backgroundColor: #F4F7FA;
-  --primaryColor: #2C3137;
-  --textColorSecondary: #656D79;
+  /* --backgroundColor: #F5FAFA; */
+  --backgroundColor: #FBFEFD;
+  --blueAccent1: #5CEDF0;
+  --blueAccent2: #18a7E4;
+  --blueAccent3: #2AC5e5;
+  --blueAccent4: #126FC7;
+  --blueAccent4Overlay: #126FC799;
+  --white: #FFF;
+  /* --backgroundColor: #FFF; */
+  /* --primaryAccent: #0a1e68;
+  --secondaryAccent: #0043e8; */
+  --primaryAccent: #0d7bd6;
+  --primaryAccentOverlay: #0d7bd699;
+  --secondaryAccent: #83acd5;
+  --primaryColor: #545454;
+  --textColorSecondary: #737373;
 }

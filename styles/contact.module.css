@@ -1,0 +1,12 @@
+.contact-container {
+  min-height: 500px;
+}
+
+.map {
+  position: relative;
+  overflow: hidden;
+  display: block;
+
+  height: 750px;
+  width: 750px;
+}

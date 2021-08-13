@@ -23,11 +23,18 @@
   align-items: center;
 }
 .navbar-brand img {
+  color: var(--backgroundColor);
   margin-right: 8px;
 }
 .navbar-brand div {
   display: inline-block;
   white-space: nowrap;
+}
+@media screen and (max-width: 300px) {
+  .navbar-brand div {
+    max-width: 125px;
+    white-space: normal;
+  }
 }
 .navbar-brand h2 {
   margin-bottom: 0;
@@ -38,21 +45,16 @@
   letter-spacing: 1px;
   font-weight: 400;
 }
-.navbar-brand span {
+
+.header-menu-item {
   color: var(--textColorSecondary);
 }
-@media screen and (max-width: 300px) {
-  .navbar-brand div {
-    max-width: 125px;
-    white-space: normal;
-  }
-}
 
+/*Delete????????????????*/
 .hamburger-button {
   font-size: 24px;
   display: inline-block;
 }
-
 @media screen and (min-width: 768px) {
   .hamburger-button {
     display: none;

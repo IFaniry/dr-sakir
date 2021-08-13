@@ -10,7 +10,7 @@
 html {
   box-sizing: border-box;
   font-family: var(--text-paragraph);
-  font-size: 14px;
+  font-size: 16px;
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
@@ -27,8 +27,9 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-.header, .container {
+.container {
   width: 100%;
+  max-width: 1170px;
   padding-right: 10px;
   padding-left: 10px;
   margin-right: auto;

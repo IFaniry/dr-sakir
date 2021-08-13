@@ -1,0 +1,26 @@
+.specialities-container {
+  background-color: var(--white);
+  padding: 35px 20px;
+}
+
+.speciality {
+  position: relative;
+  overflow: hidden;
+}
+.speciality h3 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  color: var(--white);
+  font-size: 2rem;
+  text-align: center;
+  transform: translateY(calc(-500px - 6px));
+  background-color: var(--blueAccent4Overlay);
+}
+
+.specialities-container h2 {
+  text-align: center;
+}

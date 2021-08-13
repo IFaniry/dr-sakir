@@ -1,0 +1,73 @@
+.hero-bg {
+  position: relative;
+  height: 320px;
+  z-index: -1;
+}
+@media screen and (min-width: 320px) {
+  .hero-bg {
+    height: 337px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .hero-bg {
+    height: calc(100vh - 142px);
+  }
+}
+
+.hero-message-box {
+  opacity: 0.9;
+  max-width: max(96%, 217px);
+  /* max-width: 250px; */
+
+  transform: translateY(10px);
+}
+@media screen and (min-width: 576px) {
+  .hero-message-box {
+    max-width: 405px;
+
+    transform: translate(10vw, 15vh);
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-message-box {
+    max-width: 405px;
+
+    transform: translate(25vw, 15vh);
+  }
+}
+@media screen and (min-width: 992px) {
+  .hero-message-box {
+    max-width: 405px;
+
+    transform: translate(40vw, 15vh);
+  }
+}
+
+.hero-message-text {
+  padding: 10px 10px;
+  border-radius: 0.25rem;
+  /* background-color: #1890FF; */
+  background-color: var(--blueAccent2);
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 320px) {
+  .hero-message-text {
+    padding: 1rem 1.5rem;
+
+    margin-bottom: 20px;
+  }
+}
+
+.hero-message-box h2 {
+  color: var(--white);
+  font-size: calc(1.375rem + 1.5vw);
+}
+@media (min-width: 1200px) {
+  .hero-message-box h2 {
+    font-size: 2.5rem;
+  }
+}
+
+.hero-message-box p {
+  color: var(--white);
+}
