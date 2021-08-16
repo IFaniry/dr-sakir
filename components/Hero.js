@@ -1,7 +1,8 @@
 import { Button } from 'antd'
 import classNames from 'classnames/bind'
 import Image from 'next/image'
-import { SendOutlined } from '@ant-design/icons';
+import { SendOutlined } from '@ant-design/icons'
+import MessengerMessageUs from 'react-messenger-message-us'
 
 import styles from '../styles/hero.module.css'
 import HeroPic from '../public/hero.jpg'
@@ -27,6 +28,7 @@ const Hero = function () {
         <Button type="primary" icon={<SendOutlined />} size="large">
           Contacter un spécialiste
         </Button>
+        <MessengerMessageUs pageId={process.env.NEXT_PUBLIC_FB_PAGE_ID} appId={process.env.NEXT_PUBLIC_FB_APP_ID} />,
       </div>
     </section>
   )
